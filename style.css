@@ -1,0 +1,62 @@
+.Menu{
+    display:flex;
+    justify-content: space-between;
+    background-color:#4A9A8A;
+    font-size: 20px;
+    font-family:  Century Gothic;
+    font-weight: 400;
+    color: white;
+}
+.bodyimg{
+    position:relative;
+    
+}
+#back{
+    border:2px solid #4A9A8A;
+    border-radius: 90px;
+}
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 55px;
+    font-family: Century Gothic;
+    text-align:center;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:20%;
+    left:50%;
+    
+}
+.bodyimg h3{
+    color:#f7f2f2;
+    font-size: 20px;
+    font-family: Century Gothic;
+    text-align:center;
+    position:absolute;
+    transform:translate(0%, -200%);
+    
+    
+    
+    
+    
+}
+body{
+    background-color: #4A9A8A;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.grid img{
+    border:2px solid black;
+    border-radius: 50px;
+    
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: white;
+    width:310px;
+    font-family: Century gothic;
+    padding: 60px;
+    margin: 35px;
+}
